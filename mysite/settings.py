@@ -124,5 +124,6 @@ STATIC_URL = '/static/'
 ALLOWED_HOSTS = ['*']
 X_FRAME_OPTIONS = '*'
 
-CRISPY_TEMPLATE_PACK = 'bootstarp4'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'blog-home'
+LOGIN_URL = 'login'
